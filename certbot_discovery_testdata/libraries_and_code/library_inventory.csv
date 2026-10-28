@@ -1,0 +1,5 @@
+name,category,example_detection_target,notes
+OpenSSL,Native crypto library,openssl version,Detect installed version/path on test host
+Java Cryptography Architecture (JCA),Java crypto API,java.security.Provider,API/provider inventory; not a standalone native library
+Bouncy Castle,Java crypto provider,org.bouncycastle provider,Detect only if installed in test app/runtime
+PKCS#11,Hardware/software crypto interface,configured PKCS#11 module path,Use a test module or mock configuration; do not connect production HSM

@@ -1,0 +1,9 @@
+# TLS 1.2 cipher suite names
+ECDHE-RSA-AES128-GCM-SHA256
+ECDHE-RSA-AES256-GCM-SHA384
+
+# TLS 1.3 cipher suite names
+TLS_AES_128_GCM_SHA256
+TLS_AES_256_GCM_SHA384
+
+Discovery note: TLS 1.3 cipher suites do not encode the key exchange/authentication algorithm in the suite name. Confirm enabled suites using the actual runtime or endpoint.

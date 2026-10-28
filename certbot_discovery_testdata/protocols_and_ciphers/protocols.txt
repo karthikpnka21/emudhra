@@ -1,0 +1,4 @@
+TLSv1.2
+TLSv1.3
+
+Discovery note: these are protocol names to look for in configuration or runtime inventory. Actual support depends on the installed TLS implementation and configuration.
